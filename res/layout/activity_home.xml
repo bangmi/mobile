@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00CCFF"
+        android:gravity="center"
+        android:text="功能列表"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <com.martin.mobileguard.UI.FocustedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:text="测试marquee效果，我是您的手机卫士，时刻保护您的手机安全" />
+
+    <GridView
+        android:id="@+id/gridviewhome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/list_selector"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:horizontalSpacing="20dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+</LinearLayout>

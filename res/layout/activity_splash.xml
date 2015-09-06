@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash" >
+
+    <TextView
+        android:id="@+id/tv_splash_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="版本号:"
+        android:textSize="20sp" />
+
+   
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/tv_update_info"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已经下载:" />
+
+</RelativeLayout>
